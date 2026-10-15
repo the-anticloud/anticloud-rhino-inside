@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:37cd6d92-6b14-5211-b9ca-d8707d693914",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T14:33:59Z",
+    "component": {
+      "type": "application",
+      "name": "RHINO_INSIDE",
+      "version": "69c582bf7f10",
+      "bom-ref": "pkg:generic/anticloud/RHINO_INSIDE@69c582bf7f10",
+      "purl": "pkg:generic/anticloud/RHINO_INSIDE@69c582bf7f10",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "69c582bf7f10735b27ba07afd41e6a70b7a7534f"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/mcneel/rhino.inside"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}

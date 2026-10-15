@@ -1,0 +1,183 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "RHINO_INSIDE",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARCHITECTURAL_DESIGN\\RHINO_INSIDE\\UPSTREAM_CLONE",
+    "git": {
+      "head": "69c582bf7f10735b27ba07afd41e6a70b7a7534f",
+      "url": "https://github.com/mcneel/rhino.inside",
+      "branch": "rhino-8.x",
+      "committed_at": "2025-05-21T08:41:40-07:00"
+    }
+  },
+  "metrics": {
+    "files_total": 27,
+    "source_files_scanned": 8,
+    "lines_of_code": 749,
+    "languages": {
+      ".cs": 8,
+      "(none)": 5,
+      ".md": 4,
+      ".csproj": 3,
+      ".snk": 2,
+      ".yaml": 1,
+      ".yml": 1,
+      ".props": 1,
+      ".ps1": 1,
+      ".sln": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 0,
+    "unique": 0,
+    "by_ecosystem": {},
+    "list": []
+  },
+  "owasp_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:37cd6d92-6b14-5211-b9ca-d8707d693914",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T14:33:59Z",
+      "component": {
+        "type": "application",
+        "name": "RHINO_INSIDE",
+        "version": "69c582bf7f10",
+        "bom-ref": "pkg:generic/anticloud/RHINO_INSIDE@69c582bf7f10",
+        "purl": "pkg:generic/anticloud/RHINO_INSIDE@69c582bf7f10",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "69c582bf7f10735b27ba07afd41e6a70b7a7534f"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/mcneel/rhino.inside"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": []
+  },
+  "elapsed_seconds": 10.45
+}
